@@ -1,0 +1,413 @@
+body {
+    margin: 28px;
+}
+
+.wrapper {
+    width: 1920;
+    height: 1667px;
+}
+
+.logo p {
+    font-size: 30px;
+    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    font-weight: 800;
+    margin-left: 135px;
+    float: left;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #95e1d3;
+}
+
+.logo a:hover {
+    color: #f38181;
+    text-decoration: none;
+}
+
+.ul {
+    list-style: none;
+}
+
+.li {
+    margin-top: 37px;
+    display: inline-block;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 57px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.navigation a {
+    color: #95e1d3;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #f38181;
+    text-decoration: underline;
+}
+
+
+/*Нижче уже main*/
+
+.p1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+.linehr {
+    border-bottom: 3px solid #f38181;
+    width: 60px;
+    height: 3px;
+    margin: auto;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.minibox1 {
+    width: 329px;
+    height: 80px;
+    margin: 0;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.minibox1 img {
+    display: inline;
+}
+
+.minibox1 span {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+.lorem {
+    padding-left: 35px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.p0 {
+    text-align: center;
+    color: #999999;
+}
+
+.p9 {
+    width: 941px;
+    height: 61px;
+    margin: auto;
+}
+
+.boxik {
+    margin-top: 100px;
+    width: 383px;
+    height: 473px;
+    background-image: url(../img/Layer%2016@1X.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.boxik:hover {
+    box-shadow: 10px 10px 0px 0px aqua;
+}
+
+.boxik2 {
+    width: 383px;
+    height: 473px;
+    background-image: linear-gradient(pink, yellow);
+    opacity: 0.5;
+    display: none;
+}
+
+.boxik:hover .boxik2 {
+    display: block;
+    opacity: 60%;
+}
+
+.boxik21 {
+    width: 225px;
+    height: 55px;
+    background-color: #fce38a;
+    position: relative;
+    bottom: 250px;
+    left: 85px;
+    display: none;
+}
+
+.boxik:hover .boxik21 {
+    display: inline-block;
+}
+
+.mini {
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lol {
+    border-right: none;
+}
+
+.mini:hover {
+    background-color: #95e1d3;
+}
+
+
+/*comand center*/
+
+.nanobox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ups ups ups */
+
+.box1k {
+    margin-top: 100px;
+    width: 383px;
+    height: 473px;
+    background-image: url(../img/Layer%2019@1X.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.box1k:hover {
+    box-shadow: 10px 10px 0px 0px aqua;
+}
+
+.box1k2 {
+    width: 383px;
+    height: 473px;
+    background-image: linear-gradient(pink, yellow);
+    opacity: 0.5;
+    display: none;
+}
+
+.box1k:hover .box1k2 {
+    display: block;
+    opacity: 60%;
+}
+
+.box1k21 {
+    width: 225px;
+    height: 55px;
+    background-color: #fce38a;
+    position: relative;
+    bottom: 250px;
+    left: 85px;
+    display: none;
+}
+
+.box1k:hover .box1k21 {
+    display: inline-block;
+}
+
+.m1ni {
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lol {
+    border-right: none;
+}
+
+.m1ni:hover {
+    background-color: #95e1d3;
+}
+
+.b0xik {
+    margin-top: 100px;
+    width: 383px;
+    height: 473px;
+    background-image: url(../img/Layer%2018@1X.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.b0xik:hover {
+    box-shadow: 10px 10px 0px 0px aqua;
+}
+
+.b0xik2 {
+    width: 383px;
+    height: 473px;
+    background-image: linear-gradient(pink, yellow);
+    opacity: 0.5;
+    display: none;
+}
+
+.b0xik:hover .b0xik2 {
+    display: block;
+    opacity: 60%;
+}
+
+.b0xik21 {
+    width: 225px;
+    height: 55px;
+    background-color: #fce38a;
+    position: relative;
+    bottom: 250px;
+    left: 85px;
+    display: none;
+}
+
+.b0xik:hover .b0xik21 {
+    display: inline-block;
+}
+
+.min1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lol {
+    border-right: none;
+}
+
+.min1:hover {
+    background-color: #95e1d3;
+}
+
+.microbox1 {
+    width: 383px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.microbox2 {
+    width: 383px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.microbox3 {
+    width: 383px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.p010 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.p020 {
+    text-align: center;
+    color: gray;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {
+    background-color: #95e1d3;
+    float: right;
+    width: 120px;
+    height: 40px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .btn {
+        display: none;
+    }
+    .navigation li {
+        display: none;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .nanobox {
+        flex-wrap: wrap;
+    }
+    .box1k {
+        width: 120px;
+        height: 40px;
+    }
+    .logo p {
+        margin-left: 0px;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .p1 {
+        margin-top: 10px;
+    }
+    .box1 {
+        flex-wrap: wrap;
+    }
+    .box2 {
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+    .p0 {
+        display: inline;
+        text-align: center;
+    }
+    .p9 {
+        width: 310px;
+        
+    }
+/*    ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MAIN ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+}
