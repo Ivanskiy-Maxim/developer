@@ -317,19 +317,22 @@ body {
 .microbox1 {
     width: 383px;
     display: inline-block;
-    margin-top: 10px;
+/*    margin-top: 10px;*/
 }
 
 .microbox2 {
+    height: 50px;
     width: 383px;
     display: inline-block;
-    margin-top: 10px;
+/*    margin-top: 10px;*/
 }
-
+.b0xik {
+    margin-top: 20px;
+}
 .microbox3 {
     width: 383px;
     display: inline-block;
-    margin-top: 10px;
+/*    margin-top: 10px;*/
 }
 
 .p010 {
@@ -365,7 +368,24 @@ body {
     font-weight: 400;
 }
 
-@media (min-width: 0px) and (max-width: 320px) {
+.mmicrobox1 {
+    display: none;
+}
+
+.mmicrobox2 {
+    display: none;
+}
+
+.mmicrobox3 {
+    display: none;
+}
+
+
+/*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MEDIA PHONE ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+/*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MEDIA PHONE ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+/*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MEDIA PHONE ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+
+@media (min-width: 0px) and (max-width: 600px) {
     .btn {
         display: none;
     }
@@ -377,10 +397,6 @@ body {
     }
     .nanobox {
         flex-wrap: wrap;
-    }
-    .box1k {
-        width: 120px;
-        height: 40px;
     }
     .logo p {
         margin-left: 0px;
@@ -406,8 +422,93 @@ body {
         text-align: center;
     }
     .p9 {
-        width: 310px;
-        
+        width: 260px;
     }
-/*    ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MAIN ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+    /*    ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MAIN ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+    .boxik {
+        width: 225px;
+        height: 278px;
+    }
+    .box1k {
+        width: 225px;
+        height: 278px;
+    }
+    .b0xik {
+        width: 225px;
+        height: 278px;
+    }
+    .boxik2 {
+        width: 225px;
+        height: 278px;
+    }
+    .box1k2 {
+        width: 225px;
+        height: 278px;
+    }
+    .b0xik2 {
+        width: 225px;
+        height: 278px;
+    }
+    /* DELETE DETALS ;)                */
+    .microbox1 {
+        display: none;
+    }
+    .microbox2 {
+        display: none;
+    }
+    .microbox3 {
+        display: none;
+    }
+    /* DELETE DETALS ;)                */
+    .mmicrobox1 {
+        display: inline-block;
+        margin-top: 280px;
+    }
+    .mmicrobox2 {
+        display: inline-block;
+        margin-top: 280px;
+    }
+    .mmicrobox3 {
+        display: inline-block;
+        margin-top: 280px;
+    }
+    .pp010 {
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    .pp020 {
+        text-align: left;
+        color: gray;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+    .none hr {
+        display: none;
+    }
+    .boxik21 {
+        margin-top: 250px;
+    }
+    .boxik:hover .boxik21 {
+        left: 0px;
+        margin-top: 250px;
+    }
+    .box1k:hover .box1k21 {
+        left: 0px;
+        margin-top: 250px;
+    }
+    .b0xik:hover .b0xik21 {
+        left: 0px;
+        margin-top: 250px;
+    }
+    .boxik:hover .mmicrobox1 {
+        display: none;
+    }
+    .box1k:hover .mmicrobox2 {
+        display: none;
+    }
+    .b0xik:hover .mmicrobox3 {
+        display: none;
+    }
 }
