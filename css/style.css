@@ -508,5 +508,69 @@
             justify-content: center;
         }
     }
+    /*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ TABLET ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+    /*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ TABLET ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+    /*✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ TABLET ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
     
-    @media (min-width: 601px) and (max-width: 1024px) {}
+    @media (min-width: 601px) and (max-width: 1024px) {
+        .logo p {
+            margin: auto;
+        }
+        .logo {
+            width: auto;
+        }
+        .navigation {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .ul {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .ul li {
+            margin-right: 20px;
+        }
+        .p0 {
+            display: inline;
+            text-align: center;
+        }
+        .p9 {
+            width: auto;
+        }
+        .logo {
+            margin-top: 40px;
+        }
+        .p1 {
+            margin: 0;
+        }
+        .box2 {
+            margin-top: 35px;
+            margin-bottom: 100px;
+        }
+        /*        ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪ MAIN ✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪*/
+        /* DELETE DETALS ;)                */
+        .microbox1 {
+            display: none;
+        }
+        .microbox2 {
+            display: none;
+        }
+        .microbox3 {
+            display: none;
+        }
+        /* DELETE DETALS ;)                */
+        .nanobox {
+            width: auto;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .none hr {
+            display: none;
+        }
+    }
+/*gg*/
