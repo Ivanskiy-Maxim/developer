@@ -572,5 +572,11 @@
         .none hr {
             display: none;
         }
+        .nanobox {
+            margin-bottom: 30px;
+        }
+        .box1 {
+            margin-bottom: 70px;
+        }
     }
 /*gg*/
